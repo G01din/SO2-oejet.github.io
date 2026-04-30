@@ -1,0 +1,24 @@
+html {
+  color: #000000;
+}
+
+body {
+  background-color: #F0F5FF;
+  font-family: Montserrat;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 0px;
+}
+
+p {
+  font-size: 32px;
+  margin: 0px;
+}

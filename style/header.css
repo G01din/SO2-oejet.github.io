@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  grid-column: auto;
+  grid-gap: 32px;
+  grid-template-columns: max-content max-content auto;
+  background-color: #3D415C;
+  height: 128px;
+  line-height: 128px;
+  padding-left: 32px;
+}

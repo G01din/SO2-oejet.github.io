@@ -1,0 +1,9 @@
+.footer {
+  background-color: #3D415C;
+  padding: 32px;
+  min-height: 512px;
+}
+ 
+.footer p {
+  font-size: 24px
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="opgave-style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="opgave_scripts.js"></script>
+    <title>Opgaver om øjet</title>
+</head>
+<body>
+    <div class="start_menu" id="start">
+        <h1>Opgaver om øjet</h1>
+        <h3>Tjek din viden om øjet, med disse opgaver</h3>
+        <button onclick="start_active()">Start</button>
+        <div class="changer">
+            <h2>Valgmuligheder</h1>
+            <div class="main_case">
+                <div class="inputbox">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Svar">
+                    <label for="vehicle1"> I have a bike</label><br>
+                </div>
+                <div class="inputbox">
+                    <input type="checkbox" id="vehicle2" name="vehicle1" value="Svar">
+                    <label for="vehicle2"> I have a bike</label><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="active">
+        <div class="top">
+            <h1 class="top_h1">Opgaver om øjet</h1>
+            <button class="btn_top" onclick="stop_active()">Stop</button>
+        </div>
+        <div class="mid_section">
+            <div class="text_con">
+                <p>
+                    texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
+                </p>
+            </div>
+            <div class="image_con">
+                <img src="Gustav_monkey.png" alt="Gustav_monkey">
+            </div>
+        </div>
+        <div class="answars">
+            <button class="btn_svar">Svar</button>
+            <button class="btn_svar">Svar</button>
+            <button class="btn_svar">Svar</button>
+            <button class="btn_svar">Svar</button>
+        </div>
+        <div class="bottom">
+            <button class="btn_bottom">Forrige</button>
+            <button class="btn_bottom">Næste</button>
+        </div>
+    </div>
+</body>
+</html>

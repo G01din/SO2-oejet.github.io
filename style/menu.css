@@ -1,0 +1,55 @@
+.item1 {
+  grid-area: area1;
+  aspect-ratio: 1;
+}
+
+.item2 {
+  grid-area: area2;
+  aspect-ratio: 1;
+}
+
+.item3 {
+  grid-area: area3;
+}
+
+.menu {
+  margin: 32px;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(6, 1fr);
+
+  grid-template-areas: 
+    'area1 area1 area2 area2 area3 area3'
+    'area1 area1 area2 area2 . .';
+}
+
+.mi {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #D93442;
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.li:hover {
+  box-shadow:0px 0px 0px 8px #D93442 inset;
+}
+
+.li h2 {
+  color: #ffffff;
+}
+
+.li p {
+  color: #ffffff;
+}
+
+.small { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elias-ka-ik-finde-ud-af-at-resize {
+    background-size: 130%;
+    background-position: -55px;
+}
