@@ -7,7 +7,7 @@ function button1() {
 }
 
 function button2() {
-    window.location.href = "opgaver.html";
+    window.location.href = "opgave.html";
 }
 
 function button3() {
